@@ -1,0 +1,211 @@
+@charset "UTF-8";
+body {
+  background-color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.logo {
+  width: 90px;
+  margin-top: 18px;
+}
+
+.titulo {
+  font-family: "Raleway", sans-serif;
+  color: #000000;
+  font-size: 50px;
+}
+
+.menu {
+  background-color: #fca311;
+  font-family: "Tajawal", sans-serif;
+  font-size: 20px;
+}
+
+@media (min-width: 1200px) {
+  .footer-media {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
+
+.card-text {
+  font-size: 22px;
+  font-family: "Oswald", sans-serif;
+}
+.contenido-footer {
+  font-size: 15px;
+  background-color: #14213d;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.contenido-footer-redes {
+  width: 40px;
+}
+
+.contenido-footer-pago {
+  width: 50px;
+}
+
+.creditos:hover {
+  text-decoration: none;
+  color: #ffc9c1;
+}
+
+.titulos-home, .texto-home {
+  font-family: "Montserrat", sans-serif;
+}
+
+.texto-home {
+  font-size: 18px;
+}
+
+
+.image-box {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  width: 540px;
+}
+
+.image-box img {
+  max-width: 100%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.image-box:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.mapa {
+  width: 420px;
+  height: 220px;
+  border: white solid 3px;
+  margin-top: 20px;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #43c043;
+  text-decoration: none;
+}
+
+.underline {
+  position: relative;
+  text-decoration: none;
+  color: #43c043;
+}
+
+.underline::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: #43c043;
+  -webkit-transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .underline:hover::before {
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  -webkit-box-shadow: 2px 2px 3px #999;
+          box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
+.galeria {
+  width: 200px;
+}
+
+.descripcion-contacto {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.formulario {
+  border: double #58c043 4px;
+  padding: 30px;
+}
+
+.reservas {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.reservas-imagenes {
+  width: 230px;
+}
+
+.reservas-botones {
+  gap: 10px;
+}
+
+.preguntas, .lista-faq, .perfil-gatos {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.historia {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.galeria-gatos {
+  width: 300px;
+}
+
+.info-gatos {
+  width: 400px;
+}
+
+.perfil-gatos {
+  list-style-type: "☕";
+}
+
+.flecha-atras {
+  width: 40px;
+}
+
+/*# sourceMappingURL=styles.css.map */
