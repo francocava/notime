@@ -168,21 +168,10 @@ body {
   padding: 30px;
 }
 
-.reservas {
+
+
+.preguntas {
   font-size: 20px;
-  font-family: "Montserrat", sans-serif;
-}
-
-.reservas-imagenes {
-  width: 230px;
-}
-
-.reservas-botones {
-  gap: 10px;
-}
-
-.preguntas, .lista-faq, .perfil-gatos {
-  font-size: 18px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -192,17 +181,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.galeria-gatos {
-  width: 300px;
-}
-
-.info-gatos {
-  width: 400px;
-}
-
-.perfil-gatos {
-  list-style-type: "☕";
-}
 
 .flecha-atras {
   width: 40px;

@@ -1,14 +1,14 @@
 {
-  "name": "gala-proyecto-final",
+  "name": "notime",
   "version": "1.0.0",
-  "description": "Proyecto final del curso de Desarrollo Web de Coderhouse",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-  "author": "Maitena Sipis",
+  "author": "Martina Cavallini",
   "license": "ISC",
   "devDependencies": {
     "install": "^0.13.0",
